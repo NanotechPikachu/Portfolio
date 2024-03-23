@@ -28,9 +28,7 @@ I&apos;m a <b>Computer Science</b> student and an ardent fan of programming. A d
 function Git() {
   return (
     <>
-    <IconContext.Provider value={{ color: '#FF0000', className: 'h-8 w-8' }}>
-    <FaGithub />
-    </IconContext.Provider>
+    <FaGithub color="FF0000" />
     </>
   )
 }
