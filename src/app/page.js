@@ -28,7 +28,7 @@ I&apos;m a <b>Computer Science</b> student and an ardent fan of programming. A d
 function Git() {
   return (
     <>
-    <FaGithub color="FF0000" />
+    <FaGithub size="30px" />
     </>
   )
 }
