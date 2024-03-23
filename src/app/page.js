@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <>
     <div className="ml-8 mr-8 mt-24 mb-20">
-    <div className="ml-4 mr-4 dark:bg-black bg-slate-50 border">
+    <div className="ml-4 mr-4 dark:bg-[#2E3532] bg-slate-50 border">
     <h1 className="font-bold text-center text-2xl md:text-3xl dark:text-white text-black mb-4">Hi, I&apos;m NanotechPikachu!</h1>
     <p className="text-sm dark:text-zinc-50 text-black md:text-base text-center">A developer with passion!</p>
     </div>
