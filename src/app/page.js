@@ -11,6 +11,9 @@ I&apos;m a <b>Computer Science</b> student and an ardent fan of programming. A d
     </div>
     <div className="mr-2 ml-2 mt-6 border dark:border-emerald-600 border-emerald-400 dark:bg-[#2E3532] bg-slate-100">
     <h2 className="text-center text-xl md:text-2xl text-black dark:text-white font-bold">Social</h2>
+    <div className="mt-4 flex items-center justify-center">
+    <button>Click</button>
+    </div>
     </div>
     </div>
     </>
