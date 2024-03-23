@@ -16,13 +16,21 @@ I&apos;m a <b>Computer Science</b> student and an ardent fan of programming. A d
     <h2 className="text-center text-xl md:text-2xl text-black dark:text-white font-bold">Social</h2>
     <div className="mt-4 flex items-center justify-center">
     <button className="p-2">
-    <IconContext.Provider value={{ color: '#FF0000', className: 'h-8 w-8' }}>
-    <FaGithub />
-    </IconContext.Provider>
+    <Git />
     </button>
     </div>
     </div>
     </div>
+    </>
+  )
+}
+
+function Git() {
+  return (
+    <>
+    <IconContext.Provider value={{ color: '#FF0000', className: 'h-8 w-8' }}>
+    <FaGithub />
+    </IconContext.Provider>
     </>
   )
 }
