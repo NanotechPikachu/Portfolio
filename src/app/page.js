@@ -1,4 +1,4 @@
-import { Git, Discord } from '../ProfileLinks.jsx';
+import { Git, Discord } from '../components/ProfileLinks.jsx';
 
 export default function Home() {
   return (
