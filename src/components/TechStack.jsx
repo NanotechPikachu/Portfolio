@@ -11,6 +11,9 @@ I&apos;m basically a website developer and Discord bot maker focusing on JS.
     </i></p>
     </div>
     <PLKnown />
+    <p className="mt-4 text-sm md:text-base text-black dark:text-slate-50 italic">
+The <span className="font-medium">DiscordJS</span> and <span className="font-medium">AoiJS</span> are Discord libraries interacting with Discord API while <span className="font-medium">Starlight</span> and <span className="font-medium">Docus</span> are documentation making packages by Astro and Nuxt respectively.
+    </p>
     </div>
     </>
   )
