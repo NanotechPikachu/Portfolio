@@ -1,3 +1,5 @@
+import PLKnown from './PLKnown.jsx';
+
 export default function TechStack() {
   return (
     <>
@@ -8,6 +10,7 @@ export default function TechStack() {
 I&apos;m basically a website developer and Discord bot maker focusing on JS.
     </i></p>
     </div>
+    <PLKnown />
     </div>
     </>
   )
