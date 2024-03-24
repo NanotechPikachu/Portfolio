@@ -1,4 +1,4 @@
-import { Git, Discord } from './Profile links.jsx';
+import { Git, Discord } from './ProfileLinks.jsx';
 
 export default function Socials() {
   return (
