@@ -15,12 +15,12 @@ I&apos;m a <b>Computer Science</b> student and an ardent fan of programming. A d
     <h2 className="text-center text-xl md:text-2xl text-black dark:text-white font-bold">Social</h2>
     <div className="mt-2 flex items-center justify-center">
     <a href="https://github.com/NanotechPikachu">
-    <button className="p-2 border dark:border-teal-500 border-teal-400">
+    <button className="m-1 p-2 border dark:border-teal-500 border-teal-400">
     <Git />
     </button>
     </a>
-    <a href="https://github.com/NanotechPikachu">
-    <button className="p-2 border dark:border-teal-500 border-teal-400">
+    <a href="https://discord.com/users/949588732498018324">
+    <button className="m-1 p-2 border dark:border-teal-500 border-teal-400">
     <Discord />
     </button>
     </a>
@@ -34,7 +34,7 @@ I&apos;m a <b>Computer Science</b> student and an ardent fan of programming. A d
 function Git() {
   return (
     <>
-    <FaGithub size="40px" className="text-white md:text-black" />
+    <FaGithub size="40px" color="#6ddcf2" />
     </>
   )
 }
@@ -42,7 +42,7 @@ function Git() {
 function Discord() {
   return (
     <>
-    <FaDiscord size="40px" className="text-white md:text-black" />
+    <FaDiscord size="40px" color="#6ddcf2" />
     </>
   )
 }
