@@ -1,4 +1,4 @@
-import { FaGithub, FaDiscord } from "react-icons/fa";
+import { Git, Discord } from '../ProfileLinks.jsx';
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ I&apos;m a <b>Computer Science</b> student and an ardent fan of programming. A d
     </div>
     <div className="mr-2 ml-2 mt-6 border dark:border-emerald-600 border-emerald-400 dark:bg-[#2E3532] bg-slate-100">
     <h2 className="text-center text-xl md:text-2xl text-black dark:text-white font-bold">Socials</h2>
-    <p className="mt-2 text-center font-mono md:text-base text-sm"><i>Contact me using the below methods...</i></p>
+    <p className="mt-2 dark:text-slate-50 text-black text-center font-mono md:text-base text-sm"><i>Contact me using the below methods...</i></p>
     <div className="mt-2 mb-2 flex items-center justify-center">
     <a href="https://github.com/NanotechPikachu">
     <button className="m-1 p-2 border dark:border-teal-500 border-teal-400">
@@ -28,22 +28,6 @@ I&apos;m a <b>Computer Science</b> student and an ardent fan of programming. A d
     </div>
     </div>
     </div>
-    </>
-  )
-}
-
-function Git() {
-  return (
-    <>
-    <FaGithub size="40px" color="#6ddcf2" />
-    </>
-  )
-}
-
-function Discord() {
-  return (
-    <>
-    <FaDiscord size="40px" color="#6ddcf2" />
     </>
   )
 }
