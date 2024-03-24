@@ -11,8 +11,8 @@ export default function Home() {
     <Socials />
     <TechStack />
     </div>
-    <div className="bg-blue-500 bottom-0 text-center">
-    <p>hi</p>
+    <div className="dark:bg-teal-100 bg-teal-200 bottom-0 text-center text-black text-xs md:text-sm font-mono">
+    <p>Made with &hearts; and NextJS by <span className="font-bold italic">NanotechPikachu</span></p>
     </div>
     </div>
     </>
