@@ -1,5 +1,4 @@
-import { FaGithub } from "react-icons/fa";
-import { IconContext } from "react-icons";
+import { FaGithub, FaDiscord } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -20,6 +19,11 @@ I&apos;m a <b>Computer Science</b> student and an ardent fan of programming. A d
     <Git />
     </button>
     </a>
+    <a href="https://github.com/NanotechPikachu">
+    <button className="p-2 border dark:border-teal-500 border-teal-400">
+    <Discord />
+    </button>
+    </a>
     </div>
     </div>
     </div>
@@ -30,7 +34,15 @@ I&apos;m a <b>Computer Science</b> student and an ardent fan of programming. A d
 function Git() {
   return (
     <>
-    <FaGithub size="50px" color="#faf2f2" />
+    <FaGithub size="40px" className="text-white md:text-black" />
+    </>
+  )
+}
+
+function Discord() {
+  return (
+    <>
+    <FaDiscord size="40px" className="text-white md:text-black" />
     </>
   )
 }
