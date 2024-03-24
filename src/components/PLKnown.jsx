@@ -1,5 +1,5 @@
 export default function PLKnown() {
-  let p = [ "NodeJS", "Starlight(Docs)", "Docus(Docs)", "NextJS", "Python", "ReactJS", "TailwindCSS", "HTML", "CSS", "Markdown", "DiscordJS", "AoiJS" ];
+  let p = ["NodeJS", "Starlight(Docs)", "Docus(Docs)", "NextJS", "Python", "ReactJS", "TailwindCSS", "HTML", "CSS", "Markdown", "DiscordJS", "AoiJS"];
   return (
     <>
     <div className="mt-4 ml-2 mr-2 mb-2">
