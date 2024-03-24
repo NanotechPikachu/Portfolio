@@ -1,4 +1,4 @@
-export default BasicInfo() {
+export default function BasicInfo() {
   return (
     <>
     <h1 className="font-bold text-center text-2xl md:text-3xl dark:text-white text-black mb-4">Hi, I&apos;m NanotechPikachu!</h1>
