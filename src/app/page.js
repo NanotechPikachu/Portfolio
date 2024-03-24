@@ -1,9 +1,14 @@
 import { Git, Discord } from '../components/ProfileLinks.jsx';
+import BasicInfo from '../components/BasicInfo.jsx';
+import Socials from '../components/Socials.jsx';
 
 export default function Home() {
   return (
     <>
     <div className="ml-8 mr-8 mt-24 mb-20">
+    <BasicInfo />
+    <Socials />
+{/*
     <h1 className="font-bold text-center text-2xl md:text-3xl dark:text-white text-black mb-4">Hi, I&apos;m NanotechPikachu!</h1>
     <p className="text-sm dark:text-zinc-50 text-black md:text-base text-center">A developer with passion!</p>
     <div className="mt-6 mr-2 ml-2 border dark:border-emerald-600 border-emerald-400 dark:bg-[#2E3532] bg-slate-100 border">
@@ -27,6 +32,7 @@ I&apos;m a <b>Computer Science</b> student and an ardent fan of programming. A d
     </a>
     </div>
     </div>
+*/}
     </div>
     </>
   )
