@@ -1,6 +1,7 @@
 import BasicInfo from '../components/BasicInfo.jsx';
 import Socials from '../components/Socials.jsx';
 import TechStack from '../components/TechStack.jsx';
+import Exp from '../components/Exp.jsx';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
     <BasicInfo />
     <Socials />
     <TechStack />
+    <Exp />
     </div>
     </div>
     <div className="dark:bg-teal-100 bg-teal-200 bottom-0 text-center text-black text-xs md:text-sm font-mono">
