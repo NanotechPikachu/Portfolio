@@ -7,7 +7,7 @@ export default function Home() {
     <>
     <div className="flex flex-col min-h-screen">
     <div className="flex-grow">
-    <div className="ml-8 md:ml-12 md:mr-12 mr-8 mt-24 mb-20">
+    <div className="ml-8 md:ml-12 md:mr-12 xl:ml-16 xl:mr-16 mr-8 mt-24 mb-20">
     <BasicInfo />
     <Socials />
     <TechStack />
