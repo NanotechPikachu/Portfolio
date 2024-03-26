@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-export default function Callout({ children }) {
+export default function Callout({ summary, children }) {
   const [isOpen, setIsOpen] = useState(false);
 
   function handleCallout() {
@@ -10,8 +10,10 @@ export default function Callout({ children }) {
   };
 
   return (
-    <div className="mt-6" onClick={handleCallout}>
-    <p>Click me</p>
+    <div>
+    <div className="cursor-pointer" onClick={handleCallout}>
+    <p>{summary}</p>
+    </div>
     {isOpen && <div>{children}</div>}
     </div>
   )
