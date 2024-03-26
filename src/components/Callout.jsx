@@ -12,9 +12,9 @@ export default function Callout({ summary, children }) {
   return (
     <div>
     <div className="cursor-pointer" onClick={handleCallout}>
-    <p>{summary}</p>
+    <p className="ml-6 mr-6 mt-2 mb-2">{summary}</p>
     </div>
-    {isOpen && <div>{children}</div>}
+    {isOpen && <div className="ml-6 mr-6 mb-6 mt-6">{children}</div>}
     </div>
   )
 }
