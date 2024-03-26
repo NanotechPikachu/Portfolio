@@ -1,5 +1,4 @@
 import { Git, Discord } from './ProfileLinks.jsx';
-import Callout from './Callout.jsx';
 
 export default function Socials() {
   return (
@@ -20,9 +19,6 @@ export default function Socials() {
     </a>
     </div>
     </div>
-    <Callout>
-    <p> heya</p>
-    </Callout>
     </>
   )
 }
