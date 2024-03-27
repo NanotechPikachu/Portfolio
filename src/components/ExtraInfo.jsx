@@ -24,7 +24,7 @@ function Fav() {
     <ul className="mt-2 ml-6 mr-6 list-disc font-medium">
     <li key="anime"><span className="underline">Anime: </span>Sword Art Online</li>
     <li key="webnovel"><span className="underline">WebNovel: </span>Nanomancer Reborn</li>  
-    <li key="lightNovel"><span className="underline">LightNovel: </span>Rascal Does Not Dream</li  
+    <li key="lightNovel"><span className="underline">LightNovel: </span>Rascal Does Not Dream</li> 
     <li key="manga"><span className="underline">Manga: </span>The Eminence In Shadow</li>    
     <li key="manhwa"><span className="underline">Manhwa: </span>Solo Leveling</li>    
     <li key="manhua"><span className="underline">Manhua: </span>Tales Of Demons And Gods</li>    
