@@ -24,7 +24,8 @@ function Fav() {
     <h2 className="font-bold underline text-lg md:text-xl mt-3 mb-3">My Favorites</h2>
     My favorites of the respective category
     <ul className="mt-2 ml-6 mr-6 list-disc font-medium">
-    <li key="anime"><span className="underline">Anime: </span>{h.anime}</li>
+    <li key="anime"><span className="underline">Anime: </span>Sword Art Online</li>
+{/*
     <li key="webnovel"><span className="underline">WebNovel: </span>{h.webnovel}</li>  
     <li key="lightNovel"><span className="underline">LightNovel: </span>{h.ln}</li  
     <li key="manga"><span className="underline">Manga: </span>{h.manga}</li>    
@@ -32,6 +33,7 @@ function Fav() {
     <li key="manhua"><span className="underline">Manhua: </span>{h.manhua}</li>    
     <li key="artist"><span className="underline">Music Artist: </span>{h.artist}</li>    
     <li key="animeSong"><span className="underline">Anime Song: </span>{h.animeSong}</li>
+*/}
     </ul>
     </div>
   )
