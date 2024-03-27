@@ -1,4 +1,4 @@
-export default function Hobbies() {
+export function Hobbies() {
   let h = [ "Watch Anime", "Read Novels", "Read Mangas, Manhwas, Manhuas", "Programming", "Listening to Music", "And much more..." ];
 
   return (
