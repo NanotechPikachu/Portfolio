@@ -17,6 +17,11 @@ function Hobbies() {
 }
 
 function Fav() {
+  let q = [ 
+"It’s impossible to work hard for something you don’t enjoy. - Silica",
+"Everybody can fight. It’s just a choice of whether you should. - Kirito"
+];
+
   return (
     <div className="mt-4 mb-2 border-t-2 border-teal-200 dark:border-teal-100 dark:text-slate-50 text-black text-sm md:text-base">
     <h2 className="font-bold underline text-lg md:text-xl mt-3 mb-3">My Favorites</h2>
