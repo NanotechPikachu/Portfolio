@@ -18,8 +18,10 @@ function Hobbies() {
 
 function Fav() {
   let q = [ 
-"It’s impossible to work hard for something you don’t enjoy. - Silica",
-"Everybody can fight. It’s just a choice of whether you should. - Kirito"
+"It’s impossible to work hard for something you don’t enjoy. ~ Silica",
+"Everybody can fight. It’s just a choice of whether you should. ~ Kirito",
+"Life isn’t just doing things for yourself. It’s possible to live in such a way that other people’s happiness, makes you happy too. ~ Asuna",
+"A person is very strong when he seeks to protect something. ~ Kayaba"
 ];
 
   return (
