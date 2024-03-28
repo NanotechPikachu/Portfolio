@@ -17,12 +17,12 @@ function Quotes() {
 "A person is very strong when he seeks to protect something. ~ Kayaba",
 "I\'d rather trust and regret, than doubt and regret. ~ Kirito"
   ];
-  let r = getRandom(0,5);
-  console.log(r);
+  let r = getRandom(0, q.length - 1);
+  let qu = q[r]
   
   return (
     <>
-    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{q[r]}</span>
+    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{qu; console.log(r)}</span>
     </>
   )
 }
