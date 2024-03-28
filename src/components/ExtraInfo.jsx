@@ -38,5 +38,19 @@ function Fav() {
   )
 }
 
+function Lang() {
+  return (
+    <div className="mt-4 mb-2 border-t-2 border-teal-200 dark:border-teal-100 dark:text-slate-50 text-black text-sm md:text-base">
+    <h2 className="font-bold underline text-lg md:text-xl mt-3 mb-3">Languages</h2>
+    Languages that I know are
+    <ul className="mt-2 ml-6 mr-6 list-disc font-medium">
+    <li>English</li>
+    <li>Hindi</li>
+    </ul>
+    <p className="mt-3">Apart from them, I also have a passion to study Japanese!</p>
+    </div>
+  )
+}
 
-export { Hobbies, Fav }
+
+export { Hobbies, Fav, Lang }
