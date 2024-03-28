@@ -19,10 +19,11 @@ function Quotes() {
 "I\'d rather trust and regret, than doubt and regret. ~ Kirito"
   ];
   let r = getRandom(0,5);
+  console.log(r);
   
   return (
     <>
-    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{q[getRandom(0,5)]}</span>
+    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{q[r]}</span>
     </>
   )
 }
