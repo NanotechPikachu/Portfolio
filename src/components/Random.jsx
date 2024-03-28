@@ -36,4 +36,22 @@ function Quotes() {
   )
 }
 
+function Anime() {
+  let a = [ 
+"Sword Art Online", "The Eminence In Shadow", "Classroom Of The Elite", "Tomodachi Game", "Fate", "Death Note", "Oshi No Ko", "Horimiya"
+  ];
+
+  const [randomAnime, setRandomAnime] = useState('');
+  useEffect(() => {
+    const randomIndex = getRandom(0, a.length);
+    setRandomAnime(a[randomIndex]);
+  }, []);
+  
+  return (
+    <>
+    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{randomAnime}</span>
+    </>
+  )
+}
+
 export { Quotes }
