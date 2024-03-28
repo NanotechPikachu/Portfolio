@@ -54,4 +54,40 @@ function Anime() {
   )
 }
 
-export { Quotes, Anime }
+function WN() {
+  let w = [ 
+"Nanomancer Reborn", "Supreme Magus"
+  ];
+
+  const [randomWN, setRandomWN] = useState('');
+  useEffect(() => {
+    const randomIndex = getRandom(0, w.length);
+    setRandomWN(w[randomIndex]);
+  }, []);
+  
+  return (
+    <>
+    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{randomWN}</span>
+    </>
+  )
+}
+
+function LN() {
+  let l = [ 
+"Sword Art Online", "Rascal Does Not Dream", "Mushoku Tensei", "Arifureta"
+  ];
+
+  const [randomLN, setRandomLN] = useState('');
+  useEffect(() => {
+    const randomIndex = getRandom(0, l.length);
+    setRandomLN(l[randomIndex]);
+  }, []);
+  
+  return (
+    <>
+    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{randomLN}</span>
+    </>
+  )
+}
+
+export { Quotes, Anime, LN, WN }
