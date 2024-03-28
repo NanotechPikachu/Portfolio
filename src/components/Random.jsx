@@ -54,4 +54,4 @@ function Anime() {
   )
 }
 
-export { Quotes }
+export { Quotes, Anime }
