@@ -22,7 +22,7 @@ function Quotes() {
   
   return (
     <>
-    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100>{q[r]}</span>
+    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{q[r]}</span>
     </>
   )
 }
