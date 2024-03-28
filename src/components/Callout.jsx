@@ -1,3 +1,8 @@
+/* 
+  ------- SUPPORT-FUNC -------
+These functions provide support to other functions.
+*/
+
 "use client"
 
 import { useState } from 'react';
