@@ -8,7 +8,7 @@ import { FaGithub, FaDiscord } from 'react-icons/fa';
 function Git() {
   return (
     <>
-    <FaGithub size="40px" color="#6ddcf2" />
+    <FaGithub size="40px" color="#b2f5ea" />
     </>
   )
 }
@@ -16,7 +16,7 @@ function Git() {
 function Discord() {
   return (
     <>
-    <FaDiscord size="40px" color="#6ddcf2" />
+    <FaDiscord size="40px" color="#b2f5ea" />
     </>
   )
 }
