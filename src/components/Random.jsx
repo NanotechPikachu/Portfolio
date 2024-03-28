@@ -38,7 +38,7 @@ function Quotes() {
 
 function Anime() {
   let a = [ 
-"Sword Art Online", "The Eminence In Shadow", "Classroom Of The Elite", "Tomodachi Game", "Fate", "Death Note", "Oshi No Ko", "Horimiya"
+"Sword Art Online", "The Eminence In Shadow", "Classroom Of The Elite", "Tomodachi Game", "Fate", "Death Note", "Oshi No Ko", "Horimiya", "Tower Of God"
   ];
 
   const [randomAnime, setRandomAnime] = useState('');
