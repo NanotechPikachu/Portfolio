@@ -5,15 +5,16 @@ These functions provide support to other functions.
 
 "use client"
 
+// Randomizer JS Function 
+function getRandom(min, max) {
+  const minCeiled = Math.ceil(min);
+  const maxFloored = Math.floor(max);
+  return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); // The maximum is exclusive and the minimum is inclusive
+}
+
 import { useState, useEffect } from 'react';
 
 function Quotes() {
-  // Randomizer JS Function 
-  function getRandom(min, max) {
-    const minCeiled = Math.ceil(min);
-    const maxFloored = Math.floor(max);
-    return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); // The maximum is exclusive and the minimum is inclusive
-}
   let q = [ 
 "It’s impossible to work hard for something you don’t enjoy. ~ Silica",
 "Everybody can fight. It’s just a choice of whether you should. ~ Kirito",
@@ -24,7 +25,7 @@ function Quotes() {
 
   const [randomQuote, setRandomQuote] = useState('');
   useEffect(() => {
-    const randomIndex = getRandom(0, q.length - 1);
+    const randomIndex = getRandom(0, q.length);
     setRandomQuote(q[randomIndex]);
   }, []);
   
