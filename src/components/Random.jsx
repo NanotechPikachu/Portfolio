@@ -3,14 +3,13 @@
 These functions provide support to other functions.
 */
 
-// Randomizer JS Function 
-function getRandom(min, max) {
-  const minCeiled = Math.ceil(min);
-  const maxFloored = Math.floor(max);
-  return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); // The maximum is exclusive and the minimum is inclusive
-}
-
 function Quotes() {
+  // Randomizer JS Function 
+  function getRandom(min, max) {
+    const minCeiled = Math.ceil(min);
+    const maxFloored = Math.floor(max);
+    return Math.floor(Math.random() * (maxFloored - minCeiled) + minCeiled); // The maximum is exclusive and the minimum is inclusive
+}
   let q = [ 
 "It’s impossible to work hard for something you don’t enjoy. ~ Silica",
 "Everybody can fight. It’s just a choice of whether you should. ~ Kirito",
