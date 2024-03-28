@@ -90,4 +90,22 @@ function LN() {
   )
 }
 
-export { Quotes, Anime, LN, WN }
+function Manhwa() {
+  let m = [ 
+"Solo Leveling", "Solo Max Level: Newbie"
+  ];
+
+  const [randomManhwa, setRandomManhwa] = useState('');
+  useEffect(() => {
+    const randomIndex = getRandom(0, m.length);
+    setRandomManhwa(m[randomIndex]);
+  }, []);
+  
+  return (
+    <>
+    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{randomManhwa}</span>
+    </>
+  )
+}
+
+export { Quotes, Anime, LN, WN, Manhwa }
