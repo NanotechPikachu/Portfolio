@@ -3,6 +3,8 @@
 These functions provide support to other functions.
 */
 
+import { useState, useEffect } from 'react';
+
 function Quotes() {
   // Randomizer JS Function 
   function getRandom(min, max) {
@@ -17,13 +19,16 @@ function Quotes() {
 "A person is very strong when he seeks to protect something. ~ Kayaba",
 "I\'d rather trust and regret, than doubt and regret. ~ Kirito"
   ];
-  let r = getRandom(0, q.length - 1);
-  let qu = q[r]
-  console.log(qu, r);
+
+  const [randomQuote, setRandomQuote] = useState('');
+  useEffect(() => {
+    const randomIndex = getRandom(0, quotes.length - 1);
+    setRandomQuote(q[randomIndex]);
+  }, []);
   
   return (
     <>
-    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{qu}</span>
+    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{randomQuote}</span>
     </>
   )
 }
