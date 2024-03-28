@@ -22,7 +22,7 @@ function Quotes() {
 
   const [randomQuote, setRandomQuote] = useState('');
   useEffect(() => {
-    const randomIndex = getRandom(0, quotes.length - 1);
+    const randomIndex = getRandom(0, q.length - 1);
     setRandomQuote(q[randomIndex]);
   }, []);
   
