@@ -1,4 +1,4 @@
-import { Quotes, Anime } from './Random.jsx';
+import { Quotes, Anime, LN, WN } from './Random.jsx';
 
 function Hobbies() {
   let h = [ "Watch Anime", "Read Novels", "Read Mangas, Manhwas, Manhuas", "Programming", "Listening to Music", "And much more..." ];
@@ -25,8 +25,8 @@ function Fav() {
     My favorites of the respective category
     <ul className="mt-2 ml-6 mr-6 list-disc font-medium">
     <li key="anime"><span className="underline">Anime</span>: <Anime /></li>
-    <li key="webnovel"><span className="underline">WebNovel</span>: Nanomancer Reborn</li>  
-    <li key="lightNovel"><span className="underline">LightNovel</span>: Rascal Does Not Dream</li> 
+    <li key="webnovel"><span className="underline">WebNovel</span>: <WN /></li>  
+    <li key="lightNovel"><span className="underline">LightNovel</span>: <LN /></li> 
     <li key="manga"><span className="underline">Manga</span>: The Eminence In Shadow</li>    
     <li key="manhwa"><span className="underline">Manhwa</span>: Solo Leveling</li>    
     <li key="manhua"><span className="underline">Manhua</span>: Tales Of Demons And Gods</li>    
