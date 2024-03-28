@@ -1,3 +1,5 @@
+import { Quotes } from './Random.jsx';
+
 function Hobbies() {
   let h = [ "Watch Anime", "Read Novels", "Read Mangas, Manhwas, Manhuas", "Programming", "Listening to Music", "And much more..." ];
 
@@ -30,6 +32,7 @@ function Fav() {
     <li key="manhua"><span className="underline">Manhua</span>: Tales Of Demons And Gods</li>    
     <li key="artist"><span className="underline">Music Artist</span>: NEFFEX</li>    
     <li key="animeSong"><span className="underline">Anime Song</span>: Idol (Oshi No Ko)</li>
+    <li key="quote"><span className="underline">Quote</span>: <Quotes /></li>
     </ul>
     </div>
   )
