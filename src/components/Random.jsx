@@ -3,6 +3,8 @@
 These functions provide support to other functions.
 */
 
+"use client"
+
 import { useState, useEffect } from 'react';
 
 function Quotes() {
