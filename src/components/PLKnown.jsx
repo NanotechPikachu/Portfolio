@@ -1,5 +1,10 @@
+/* 
+  ------- SUPPORT-FUNC -------
+These functions provide support to other functions.
+*/
+
 export default function PLKnown() {
-  let p = ["NodeJS", "Starlight(Docs)", "Docus(Docs)", "NextJS", "Python", "ReactJS", "TailwindCSS", "HTML", "CSS", "Markdown", "DiscordJS", "AoiJS"];
+  let p = ["NodeJS", "Starlight", "Docus", "NextJS", "Python", "ReactJS", "TailwindCSS", "HTML", "CSS", "Markdown", "DiscordJS", "AoiJS"];
   return (
     <>
     <div className="mt-4 ml-6 mr-6 mb-2 flex flex-wrap md:justify-center">
