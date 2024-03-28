@@ -13,7 +13,7 @@ export default function Socials() {
     </button>
     </a>
     <a href="https://discord.com/users/949588732498018324">
-    <button className="m-1 md:ml-3 md:mr-3 mt-1 mb-1 p-2 border dark:border-teal-500 border-teal-400">
+    <button className="m-1 md:ml-3 md:mr-3 md:mt-1 md:mb-1 p-2 border dark:border-teal-500 border-teal-400">
     <Discord />
     </button>
     </a>
