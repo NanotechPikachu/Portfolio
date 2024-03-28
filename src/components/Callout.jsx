@@ -8,7 +8,7 @@ These functions provide support to other functions.
 import { useState } from 'react';
 
 export default function Callout({ summary, children }) {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   function handleCallout() {
     setIsOpen(!isOpen);
