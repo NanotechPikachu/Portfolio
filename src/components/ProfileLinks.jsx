@@ -1,3 +1,8 @@
+/* 
+  ------- SUPPORT-FUNC -------
+These functions provide support to other functions.
+*/
+
 import { FaGithub, FaDiscord } from 'react-icons/fa';
 
 function Git() {
