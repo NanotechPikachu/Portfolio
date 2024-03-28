@@ -19,10 +19,11 @@ function Quotes() {
   ];
   let r = getRandom(0, q.length - 1);
   let qu = q[r]
+  console.log(qu, r);
   
   return (
     <>
-    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{qu; console.log(r)}</span>
+    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{qu}</span>
     </>
   )
 }
