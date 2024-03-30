@@ -4,6 +4,7 @@ import TechStack from '../components/TechStack.jsx';
 import Exp from '../components/Exp.jsx';
 import Extra from '../components/Extra.jsx';
 import Av from '../components/Av.jsx';
+import Theme from '../components/Theme.jsx';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
     <Extra />
     </div>
     </div>
+    <Theme />
     <div className="dark:bg-teal-100 bg-teal-200 bottom-0 text-center text-black text-xs md:text-sm font-mono">
     <p className="m-4 md:m-6">Made with &hearts; and NextJS by <span className="font-bold italic">NanotechPikachu</span></p>
     </div>
