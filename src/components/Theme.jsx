@@ -10,7 +10,7 @@ export default function Theme() {
 
   return (
     <div className="flex justify-end">
-    <select value={theme} onChange={e => setTheme(e.target.value)} data-test-id="theme-selector">
+    <select value={theme} onChange={e => setTheme(e.target.value)} data-test-id="theme-selector" className="text-sm border dark:border-teal-100 border-teal-200">
     <option value="system">System</option>
     {mounted && (
     <>
