@@ -31,7 +31,7 @@ function Quotes() {
   
   return (
     <>
-    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{randomQuote}</span>
+    <span className="dark:text-slate-50 text-black text-sm md:text-base hover:text-teal-100">{randomQuote}</span>
     </>
   )
 }
@@ -49,7 +49,7 @@ function Anime() {
   
   return (
     <>
-    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{randomAnime}</span>
+    <span className="dark:text-slate-50 text-black text-sm md:text-base hover:text-teal-100">{randomAnime}</span>
     </>
   )
 }
@@ -67,7 +67,7 @@ function WN() {
   
   return (
     <>
-    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{randomWN}</span>
+    <span className="dark:text-slate-50 text-black text-sm md:text-base hover:text-teal-100">{randomWN}</span>
     </>
   )
 }
@@ -85,7 +85,7 @@ function LN() {
   
   return (
     <>
-    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{randomLN}</span>
+    <span className="dark:text-slate-50 text-black text-sm md:text-base hover:text-teal-100">{randomLN}</span>
     </>
   )
 }
@@ -103,7 +103,7 @@ function Manhwa() {
   
   return (
     <>
-    <span className="dark:text-slate-50 text-black text-sm md:text-md hover:text-teal-100">{randomManhwa}</span>
+    <span className="dark:text-slate-50 text-black text-sm md:text-base hover:text-teal-100">{randomManhwa}</span>
     </>
   )
 }
