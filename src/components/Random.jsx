@@ -74,7 +74,7 @@ function WN() {
 
 function LN() {
   let l = [ 
-"Sword Art Online", "Rascal Does Not Dream", "Mushoku Tensei", "Arifureta"
+"Sword Art Online", "Rascal Does Not Dream", "Mushoku Tensei", "Arifureta", "86"
   ];
 
   const [randomLN, setRandomLN] = useState('');
