@@ -38,7 +38,7 @@ function Quotes() {
 
 function Anime() {
   let a = [ 
-"Sword Art Online", "The Eminence In Shadow", "Classroom Of The Elite", "Tomodachi Game", "Fate", "Death Note", "Oshi No Ko", "Horimiya", "Tower Of God"
+"Sword Art Online", "The Eminence In Shadow", "Classroom Of The Elite", "Tomodachi Game", "Fate", "Death Note", "Oshi No Ko", "Horimiya", "Tower Of God", "Apothecary Diaries", "Gintama"
   ];
 
   const [randomAnime, setRandomAnime] = useState('');
@@ -92,7 +92,7 @@ function LN() {
 
 function Manhwa() {
   let m = [ 
-"Solo Leveling", "Solo Max Level: Newbie"
+"Solo Leveling", "Solo Max Level: Newbie", "Omniscient Reader"
   ];
 
   const [randomManhwa, setRandomManhwa] = useState('');
