@@ -92,7 +92,7 @@ function LN() {
 
 function Manhwa() {
   let m = [ 
-"Solo Leveling", "Solo Max Level: Newbie", "Omniscient Reader"
+"Solo Leveling", "Solo Max Level: Newbie", "Omniscient Reader", "The Novel's Extra"
   ];
 
   const [randomManhwa, setRandomManhwa] = useState('');
