@@ -40,7 +40,7 @@ function Quotes() {
 
 function Anime() {
   let a = [ 
-"Sword Art Online", "The Eminence In Shadow", "Classroom Of The Elite", "Tomodachi Game", "Fate", "Death Note", "Oshi No Ko", "Horimiya", "Tower Of God", "Apothecary Diaries", "Gintama"
+"Sword Art Online", "The Eminence In Shadow", "Classroom Of The Elite", "Tomodachi Game", "Fate", "Death Note", "Oshi No Ko", "Horimiya", "Tower Of God", "Apothecary Diaries", "Gintama", "Darling In The FranXX"
   ];
 
   const [randomAnime, setRandomAnime] = useState('');
@@ -76,7 +76,7 @@ function WN() {
 
 function LN() {
   let l = [ 
-"Sword Art Online", "Rascal Does Not Dream", "Mushoku Tensei", "Arifureta", "86"
+"Sword Art Online", "Rascal Does Not Dream", "Mushoku Tensei", "Arifureta", "86", "Classroom Of The Elite Year 2"
   ];
 
   const [randomLN, setRandomLN] = useState('');
