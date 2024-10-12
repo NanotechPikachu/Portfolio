@@ -20,7 +20,9 @@ function Quotes() {
 "Everybody can fight. It’s just a choice of whether you should. ~ Kirito",
 "Life isn’t just doing things for yourself. It’s possible to live in such a way that other people’s happiness, makes you happy too. ~ Asuna",
 "A person is very strong when he seeks to protect something. ~ Kayaba",
-"I\'d rather trust and regret, than doubt and regret. ~ Kirito"
+"I\'d rather trust and regret, than doubt and regret. ~ Kirito",
+"The world isn\'t going to change just because you want it to, but it will change because you take action. ~ Gin-san",
+"The greatest wealth is neither silver not gold, but the bonds that we make. ~ Gin-san"
   ];
 
   const [randomQuote, setRandomQuote] = useState('');
