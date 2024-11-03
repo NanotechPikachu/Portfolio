@@ -1,4 +1,4 @@
-import { Quotes, Anime, LN, WN, Manhwa } from './Random.jsx';
+import { Quotes, Anime, LN, WN, Manhwa, Manga } from './Random.jsx';
 
 function Hobbies() {
   let h = [ "Watch Anime", "Read Novels", "Read Mangas, Manhwas, Manhuas", "Programming", "Listening to Music", "And much more..." ];
@@ -27,7 +27,7 @@ function Fav() {
     <li key="anime"><span className="underline">Anime</span>: <Anime /></li>
     <li key="webnovel"><span className="underline">WebNovel</span>: <WN /></li>  
     <li key="lightNovel"><span className="underline">LightNovel</span>: <LN /></li> 
-    <li key="manga"><span className="underline">Manga</span>: The Eminence In Shadow</li>    
+    <li key="manga"><span className="underline">Manga</span>: <Manga /></li>    
     <li key="manhwa"><span className="underline">Manhwa</span>: <Manhwa /></li>    
     <li key="manhua"><span className="underline">Manhua</span>: Tales Of Demons And Gods</li>    
     <li key="artist"><span className="underline">Music Artist</span>: NEFFEX</li>    
