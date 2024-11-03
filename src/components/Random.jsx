@@ -110,4 +110,22 @@ function Manhwa() {
   )
 }
 
-export { Quotes, Anime, LN, WN, Manhwa }
+function Manga() {
+  let m = [ 
+"The Eminence in Shadow", "Tomodachi Game"
+  ];
+
+  const [randomManga, setRandomManga] = useState('');
+  useEffect(() => {
+    const randomIndex = getRandom(0, m.length);
+    setRandomManga(m[randomIndex]);
+  }, []);
+  
+  return (
+    <>
+    <span className="dark:text-slate-50 text-black text-sm md:text-base hover:text-teal-100">{randomManga}</span>
+    </>
+  )
+}
+
+export { Quotes, Anime, LN, WN, Manhwa, Manga }
