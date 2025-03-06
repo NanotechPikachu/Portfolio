@@ -1,4 +1,4 @@
-export default Profiles() {
+export default function Profiles() {
   return (
     <>
 <p>Hi</p>
