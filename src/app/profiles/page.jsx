@@ -3,7 +3,7 @@ import Theme from '../../components/Theme.jsx';
 export default function Profiles() {
   return (
     <>
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen max-h-screen">
     <div className="flex-grow">
     </div>
     <Theme />
